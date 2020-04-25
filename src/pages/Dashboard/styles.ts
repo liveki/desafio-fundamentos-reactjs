@@ -93,3 +93,22 @@ export const TableContainer = styled.section`
     }
   }
 `;
+
+export const HeaderContent = styled.div`
+  display: flex;
+  align-items: center;
+
+  .iconHeader {
+    margin-left: 12px;
+    color: #969cb3;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &.sorted {
+      color: #ff872c;
+      transform: rotate(-180deg);
+    }
+  }
+`;
