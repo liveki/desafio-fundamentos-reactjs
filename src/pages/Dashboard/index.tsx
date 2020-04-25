@@ -44,7 +44,7 @@ const Dashboard: React.FC = () => {
 
   useEffect(() => {
     async function loadTransactions(): Promise<void> {
-      const { data } = await api.get('./transactions');
+      const { data } = await api.get('/transactions');
 
       const newTransactions: Transaction[] = [];
 
