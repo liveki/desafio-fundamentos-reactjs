@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import { FiChevronDown, FiChevronUp } from 'react-icons/fi';
+import { FiChevronDown } from 'react-icons/fi';
 import income from '../../assets/income.svg';
 import outcome from '../../assets/outcome.svg';
 import total from '../../assets/total.svg';
